@@ -8,8 +8,8 @@ const imagemin = require("imagemin");
 const imageminWebp = require("imagemin-webp");
 var webp = require("webp-converter");
 
-const qualificacoesPositivas = require("./itens.json")[0].positivas;
-const qualificacoesNegativas = require("./itens.json")[0].negativas;
+const qualificacoesPositivas = require("./items.json")[0].positivas;
+const qualificacoesNegativas = require("./items.json")[0].negativas;
 
 let dataFinal = [],
   dataFinalCsv = [];
@@ -22,23 +22,26 @@ let bigtestmonials = qualificacoesPositivas.filter(item => {
 });
 
 // Aumentar tamanho das imagens
-bigtestmonials.map(item => {
-  item.imgBig = item.img.replace("w48-h48", "w200-h200");
-  item.txtSemEmoji = item.txt.replace(emojis, "");
-});
+async function bigSizeImages() {
+  for (let bigtestmonial of bigtestmonials) {
+    bigtestmonial.imgBig = bigtestmonial.img.replace("w48-h48", "w200-h200");
+    bigtestmonial.txtSemEmoji = bigtestmonial.txt.replace(emojis, "");
+  }
+}
 
 // Salvar as imagens em uma pasta
 async function saveImages() {
-  await bigtestmonials.forEach(item => {
+  for (let bigtestmonial of bigtestmonials) {
     // Tirar espaco dos nomes
     // .replace(/ /g,"_");
     options = {
-      url: item.imgBig,
-      dest: `./imgs/${item.name}.webp`
+      url: bigtestmonial.imgBig,
+      dest: `./imgs/${bigtestmonial.name}.webp`
     };
-
     // Adicionar endereco local
-    item.imgLocal = `${process.cwd()}\\imgs\\${item.name}.jpg`;
+    bigtestmonial.imgLocal = `${process.cwd()}\\imgs\\${
+      bigtestmonial.name
+    }.jpg`;
 
     // Jimp.read(options.url)
     //   .then(img => {
@@ -51,24 +54,24 @@ async function saveImages() {
     async function downloadIMG() {
       try {
         const { filename, image } = await download.image(options);
-        // console.log(filename); // => /path/to/dest/image.jpg
+        console.log(filename); // => /path/to/dest/image.jpg
       } catch (e) {
         console.error(e);
       }
     }
-    downloadIMG().then(() => {
-      // webp.dwebp(
-      //   item.imgLocal,
-      //   `./imgs/converted/${item.name}.jpg`,
-      //   "-o",
-      //   function(status, error) {
-      //     //if conversion successful status will be '100'
-      //     //if conversion fails status will be '101'
-      //     console.log(status, error);
-      //   }
-      // );
-    });
-
+    await downloadIMG();
+    //downloadIMG().then(() => {
+    // webp.dwebp(
+    //   item.imgLocal,
+    //   `./imgs/converted/${item.name}.jpg`,
+    //   "-o",
+    //   function(status, error) {
+    //     //if conversion successful status will be '100'
+    //     //if conversion fails status will be '101'
+    //     console.log(status, error);
+    //   }
+    // );
+    // });
     // download
     //   .image(options)
     //   .then(({ filename, image }) => {
@@ -77,10 +80,10 @@ async function saveImages() {
     //   .catch(err => {
     //     console.error(err);
     //   });
-  });
+  }
 }
 
-saveImages();
+bigSizeImages().then(() => saveImages());
 
 // Preparar data para ser salva em um txt/csv
 bigtestmonials.forEach(item => {

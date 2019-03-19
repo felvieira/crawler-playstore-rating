@@ -2,6 +2,76 @@
     {
         "positivas": [
             {
+                "name": "Daniele Cordeiro Lyrio",
+                "date": "19 de março de 2019",
+                "avaliacao": "Avaliado com 4 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mADvVF-c59_yP_3SKCznKqQVvE639D9XC3MmgElrg=w48-h48-n-rw",
+                "txt": "Estou gostando bastante do app! Para quem já tem alguma vivência em academia, vale super à pena! Só não dou 5 estrelas por conta das animações. Gosto de não serem vídeos, mas acho que deviam ter mais quadros para que o entendimento seja melhor. E alguns exercícios estão sem descrição. Fora isso, está me atendendo muito bem!"
+            },
+            {
+                "name": "André Flynn",
+                "date": "18 de março de 2019",
+                "avaliacao": "Avaliado com 5 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mAGfXeJRZ68__1YihxdzbBk8GRkUkgUMo4WinVZrg=w48-h48-n-rw",
+                "txt": "Amando"
+            },
+            {
+                "name": "Simone Boaventura",
+                "date": "18 de março de 2019",
+                "avaliacao": "Avaliado com 5 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/-EQ1NKJerDSQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfJN_u_-Bd56nUZLvHwGZkfc7H60g/w48-h48-n-rw-mo/photo.jpg",
+                "txt": "amei"
+            },
+            {
+                "name": "Angelo Lima",
+                "date": "18 de março de 2019",
+                "avaliacao": "Avaliado com 5 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mAMIZI4FHRjkNLnvzEoFYN81SIFNNA9LKjT5I8m=w48-h48-n-rw",
+                "txt": "ótimo"
+            },
+            {
+                "name": "jair dos santos",
+                "date": "17 de março de 2019",
+                "avaliacao": "Avaliado com 5 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mBbXrK9FshLEm-q4yjRx_H6v_a3YMw1bdYBwExqQQ=w48-h48-n-rw",
+                "txt": "muito bom e profissionais dedicados"
+            },
+            {
+                "name": "Daniel Federici",
+                "date": "16 de março de 2019",
+                "avaliacao": "Avaliado com 5 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/-4tvxNhqf4xM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re0lnPDYGDvSj-_46M-EDOG4Wl6_w/w48-h48-n-rw-mo/photo.jpg",
+                "txt": "Vivo preocupado com meu trabalho e isso sempre atrapalhou meus treinos. Dificilmente eu concluia todos os exercícios propostos para o dia, e nunca tinha conseguido malhar por 6 dias seguidos. Este app me ajudou a focar no treino. Os profissionais envolvidos são muito atenciosos. Melhor coisa que eu fiz para minha saúde. Super recomendo!"
+            },
+            {
+                "name": "Paulo Macedo",
+                "date": "15 de março de 2019",
+                "avaliacao": "Avaliado com 5 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/-vpSOf6IleKk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reI_O6_ufPjuLmQL_cZ5v-3OqMNKQ/w48-h48-n-rw-mo/photo.jpg",
+                "txt": "excelente"
+            },
+            {
+                "name": "Um usuário do Google",
+                "date": "15 de março de 2019",
+                "avaliacao": "Avaliado com 5 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/-w53XX2GXF4E/AAAAAAAAAAI/AAAAAAAAAAA/3AXEis8Zjok/w48-h48-n-rw/photo.jpg",
+                "txt": "ótimo! surpreendeu todas as minhas expectativa 👏👏👏👏👏"
+            },
+            {
+                "name": "Um usuário do Google",
+                "date": "15 de março de 2019",
+                "avaliacao": "Avaliado com 4 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/-GMeYSGdeNO8/AAAAAAAAAAI/AAAAAAAAAAA/4HUStqhZHdQ/w48-h48-n-rw/photo.jpg",
+                "txt": "estou gostando"
+            },
+            {
+                "name": "maria do carmo gomçalves mendes",
+                "date": "15 de março de 2019",
+                "avaliacao": "Avaliado com 4 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mCFdBu8G02z-l7dmS-aXKSIv4D9jfphCO6p0zMM=w48-h48-n-rw",
+                "txt": "ótimo"
+            },
+            {
                 "name": "Gabriela Mendonça",
                 "date": "14 de março de 2019",
                 "avaliacao": "Avaliado com 4 de 5 estrelas",
@@ -786,13 +856,6 @@
                 "txt": "Me ajudou demais com os exercicios e dieta."
             },
             {
-                "name": "Um usuário do Google",
-                "date": "20 de janeiro de 2019",
-                "avaliacao": "Avaliado com 5 de 5 estrelas",
-                "img": "https://lh3.googleusercontent.com/-GMeYSGdeNO8/AAAAAAAAAAI/AAAAAAAAAAA/4HUStqhZHdQ/w48-h48-n-rw/photo.jpg",
-                "txt": "estou gostando"
-            },
-            {
                 "name": "Phelipe Teixeira",
                 "date": "19 de janeiro de 2019",
                 "avaliacao": "Avaliado com 5 de 5 estrelas",
@@ -873,7 +936,7 @@
                 "name": "Um usuário do Google",
                 "date": "16 de janeiro de 2019",
                 "avaliacao": "Avaliado com 5 de 5 estrelas",
-                "img": "https://lh3.googleusercontent.com/a-/AAuE7mC3nm1uwp6ivcbGD6ohuv4XJ2pZ3wKUMNbP8P3zCg=w48-h48-n-rw",
+                "img": "https://lh3.googleusercontent.com/-dPR2c7FRelM/AAAAAAAAAAI/AAAAAAAAAAA/Ep0H5ace_x8/w48-h48-n-rw/photo.jpg",
                 "txt": "está sendo maravilhoso amei o App profissionais atenciosos"
             },
             {
@@ -1073,10 +1136,10 @@
                 "txt": "App é muito bom, mas agora não estou conseguido acessar..."
             },
             {
-                "name": "renata santos",
+                "name": "Renata Santos",
                 "date": "10 de janeiro de 2019",
                 "avaliacao": "Avaliado com 5 de 5 estrelas",
-                "img": "https://lh3.googleusercontent.com/-H-OltZNC7Fo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdC9GzkTEbsweDBk58qOZ1qF671aQ/w48-h48-n-rw-mo/photo.jpg",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mArs1p27-SjTxTRTWXc0PVKp_U0UgWGDXIOjpBbUEc=w48-h48-n-rw",
                 "txt": "adoro esses App foi uma boa escolha tenho o plano anual,não gostava das séries dos professores da academia,por isso assinei e não me arrependi recente me afastei da academia e o professor me mandou msg para saber Pq não estava treinando mais,e trocou meu treino para fazer em casa o treino é ótimo ele tira minhas dúvidas.só tenho a agradecer."
             },
             {
@@ -2452,7 +2515,7 @@
                 "txt": "Simplesmente maravilhada com a adesão do app. O José e a Ana são ótimos e supersticiosos. Os treinos e o cardápio alimentar são excelentes. Sempre estão à disposição... Vejo o quanto sou desafiada pelos exercícios! Parabéns!!!"
             },
             {
-                "name": "Stylo BAD",
+                "name": "Pedro de Castilho",
                 "date": "18 de setembro de 2018",
                 "avaliacao": "Avaliado com 5 de 5 estrelas",
                 "img": "https://lh3.googleusercontent.com/a-/AAuE7mDUyIcZzgmLo7MnTDzwSP-_d6JxkLP8_Jf8lwvTcg=w48-h48-n-rw",
@@ -6292,6 +6355,27 @@
     {
         "negativas": [
             {
+                "name": "Iran Chulvis",
+                "date": "19 de março de 2019",
+                "avaliacao": "Avaliado com 1 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mAiRgp_hUZu0UZcXhURh-lgbvQEZo1a-ekqmHHc=w48-h48-n-rw",
+                "txt": "Nao gostei. tudo e pago."
+            },
+            {
+                "name": "Davi L Fidelis",
+                "date": "18 de março de 2019",
+                "avaliacao": "Avaliado com 1 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/a-/AAuE7mAvngqbGULXMy6NGqEeBn6zLBVWMSyV3MzxCmwUdQ=w48-h48-n-rw",
+                "txt": "horrivelmente horrível"
+            },
+            {
+                "name": "Aiser O'honor",
+                "date": "16 de março de 2019",
+                "avaliacao": "Avaliado com 1 de 5 estrelas",
+                "img": "https://lh3.googleusercontent.com/-t5s_9YaKKL0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdQLw8V_d-R_63a4FTxT4uhqQwbGw/w48-h48-n-rw-mo/photo.jpg",
+                "txt": "péssimo"
+            },
+            {
                 "name": "Um usuário do Google",
                 "date": "12 de março de 2019",
                 "avaliacao": "Avaliado com 2 de 5 estrelas",
@@ -6304,13 +6388,6 @@
                 "avaliacao": "Avaliado com 1 de 5 estrelas",
                 "img": "https://lh3.googleusercontent.com/a-/AAuE7mA-Q6iSFzxS8InWDUx35jMExgxYBpcpDdpEsKcEQg=w48-h48-n-rw",
                 "txt": "Não gostei, além de ter cobrado um mês que eu não usei o aplicativo. Fiz o cancelamento e eles nunca retornaram. Não instale forma de pegar o dinheiro de vcs. Comprei só por um mês e me cobraram mais de um."
-            },
-            {
-                "name": "Pamela Santana",
-                "date": "4 de março de 2019",
-                "avaliacao": "Avaliado com 1 de 5 estrelas",
-                "img": "https://lh3.googleusercontent.com/-W2cYNjBI9pU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdqdXkY_PEEfbS7JAl1nzksrnHbvQ/w48-h48-n-rw-mo/photo.jpg",
-                "txt": "ao tentar cancelar vc e ignorado então não indico pra ninguém esse aplicativo"
             },
             {
                 "name": "Luana Almeida",
